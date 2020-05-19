@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-<body>
-<script>
-    // Javascript URL redirection - 
-    window.location.replace("https://www.united.com/en/us");
-</script>
-</body>
-</html>
+<?php
+// PHP permanent URL redirection
+header("Location: https://www.united.com/en/us", true, 301);
+exit();
+?>
