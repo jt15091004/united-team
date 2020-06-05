@@ -21,6 +21,7 @@ class FraudFilterDetector_gfnmu {
             $this->action($resultObj);
         }
     }
+    
 
     function url_origin($s)
     {
